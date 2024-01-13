@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/m-jawad-malik/my-portfolio">
-    <img src="src/images/logo1.png" alt="Logo" width="200" height="200">
+    <img src="src/images/logo.svg" alt="Logo" width="200" height="200">
   </a>
 
   <p align="center">
