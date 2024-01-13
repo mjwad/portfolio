@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import landingImage from "../images/suit.png";
+import landingImage from "../images/suit.jpeg";
 import SocialIcons from "./SocialIcons";
 
 /**
@@ -69,6 +69,9 @@ const Hero = ({ name }) => {
             }}
           />
         </motion.div>
+        <p>
+          Full Stack Developer | Specialized in Django, Python, <br/> Ruby on Rails, React JS | 💡 Critical Problem Solver | 🧠 AI Enthusiast <br/> 🌐 Your Partner for Effortless Software Excellence #fullstackdeveloper #django
+        </p>
       </div>
       {/* Animated landing image */}
       <div className="image-container">
@@ -79,7 +82,7 @@ const Hero = ({ name }) => {
           transition={{ delay: 1, duration: 1.5, ease: "easeInOut" }}
           style={styles.landingImage}
           src={landingImage}
-          alt="Michael Yeates"
+          alt="Muhammad Jawad"
         />
       </div>
       {/* Displaying social icons */}

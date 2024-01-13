@@ -22,7 +22,7 @@ const Footer = () => {
 
   useEffect(() => {
     // Fetch GitHub repository information
-    fetch("https://api.github.com/repos/mdyeates/my-portfolio")
+    fetch("https://api.github.com/repos/m-jawad-malik/my-portfolio")
       .then((res) => res.json())
       .then((json) => {
         const { stargazers_count, forks_count } = json;
@@ -50,20 +50,19 @@ const Footer = () => {
       <SocialIcons />
 
       {/* GitHub repository link */}
-      <a className="footer-link" href="https://github.com/mdyeates/my-portfolio">
+      <a className="footer-link" href="https://github.com/m-jawad-malik/my-portfolio">
         <span>
           <AiOutlineStar /> {gitHubInfo.stars} <BiGitRepoForked />
           {gitHubInfo.forks} - Give this project a star!
         </span>
         <p>
-          <span>▷</span> Designed and built by Michael Yeates &copy; {currentYear}
+          <span>▷</span> Updated and redesigned by Muhammad Jawad &copy; {currentYear}
         </p>
-        <p>All views and work are my own</p>
       </a>
 
       {/* Buy Me A Coffee link */}
       <motion.a
-        href="https://www.buymeacoffee.com/mdyeates"
+        href="https://www.buymeacoffee.com/m.jawad.malik"
         initial="initial"
         whileHover="hover"
         whileTap="tap"
