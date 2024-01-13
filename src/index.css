@@ -130,7 +130,7 @@ a {
 .fadeIn {
   animation: fadeInAnimation 0.5s ease-in;
 }
-
+  
 /* --- MOBILE STYLES --- */
 
 /* --- HEADER ---  */
@@ -144,7 +144,7 @@ header {
 }
 
 .logo {
-  height: 30px;
+  height: 50px;
 }
 
 .links {
