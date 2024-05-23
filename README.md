@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/m-jawad-malik/my-portfolio">
+  <a href="https://github.com/mjwad/portfolio">
     <img src="src/images/logo.svg" alt="Logo" width="200" height="200">
   </a>
 
@@ -12,11 +12,11 @@
     <br/>
     Explore my journey, projects, and passions in this immersive portfolio powered by React.
     <br/>
-    <a href="https://m-jawad-malik.github.io/my-portfolio/">View Live Website</a>
+    <a href="https://mjwad.github.io/portfolio/">View Live Website</a>
     ·
-    <a href="https://github.com/m-jawad-malik/my-portfolio/issues">Report Bug</a>
+    <a href="https://mjwad.github.io/portfolio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/m-jawad-malik/my-portfolio/issues">Request Feature</a>
+    <a href="https://mjwad.github.io/portfolio/issues">Request Feature</a>
   </p>
 </div>
 
@@ -41,7 +41,7 @@ To get a local copy up and running follow these simple example steps.
 
 Clone the repo
   ```sh
-  git clone https://github.com/m-jawad-malik/my-portfolio.git
+  git clone https://github.com/mjwad/portfolio.git
   ```
 
 Install NPM packages
