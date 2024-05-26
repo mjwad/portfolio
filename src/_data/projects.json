@@ -5,7 +5,7 @@
     "image": "/projectImages/resumebot.jpeg",
     "body": "During my training period as an Associate Engineer, I get opportunity to work on live project, In which I get opportunity to use OpenAi Vision Pro, Whisper and GPT-3 Turbo Model for implementation of amazing features of an App. \n\nBuilding on this experience, I developed a resume bot using ChatGPT. This innovative tool analyzes resumes and job descriptions, providing a percentage match to help candidates tailor their resumes for specific positions. This project not only demonstrates my technical skills but also reflects my commitment to practical solutions and efficiency in the hiring process.",
     "technologies": ["LangChain Js", "Material Ui", "JavaScript", "HTML", "CSS"],
-    "github": "https://github.com/M-Jawad-Malik/resumebot",
+    "github": "https://github.com/mjwad/resumebot",
     "deployed": "https://resumebot.com",
     "bgcolor": "var(--hl2-color)",
     "id": "1"
@@ -16,8 +16,8 @@
     "image": "/projectImages/facerecognition.jpeg",
     "technologies": ["JavaScript", "Express", "Knex", "Node"],
     "body": "Introducing my facial recognition app, utilizing the robust Clarifai Face Recognition API. Designed for developers and individuals, this tool offers a streamlined experience for precise face identification in uploaded images. \n Its user-friendly interface, customization options, and straightforward integration make it an ideal solution for personal projects or applications requiring facial recognition capabilities. Explore the efficiency and accuracy of Clarifai's technology in my advanced facial recognition app, tailored for single users and developers.",
-    "github": "https://github.com/M-Jawad-Malik/FacerecognitionAPI",
-    "deployed": "https://github.com/M-Jawad-Malik/FacerecognitionAPI",
+    "github": "https://github.com/mjwad/FacerecognitionAPI",
+    "deployed": "https://github.com/mjwad/FacerecognitionAPI",
     "bgcolor": "var(--hl-color)",
     "id": "2"
   },
@@ -27,8 +27,8 @@
     "image": "/projectImages/robofriend.jpeg",
     "technologies": ["JavaScript", "tachyons", "React", "HTMl", "CSS"],
     "body": "Udemy React Course Project: Simple React app showcasing auto-generated robots via API. Features responsive design, user-friendly interface, and practical API integration for a hands-on learning experience.",
-    "github": "https://github.com/M-Jawad-Malik/RoboFriends",
-    "deployed": "https://m-jawad-malik.github.io/RoboFriends/",
+    "github": "https://github.com/mjwad/RoboFriends",
+    "deployed": "https://mjwad.github.io/RoboFriends/",
     "bgcolor": "#6c4bf4",
     "id": "3"
   },
@@ -38,8 +38,8 @@
     "image": "/projectImages/bugtracker.png",
     "technologies": ["Ruby on Rails", "JavaScript", "HTML", "CSS", "PostgreSQL"],
     "body": "Bug Tracker Project: Streamlined bug tracking system catering to project managers, developers, and SQA. Enhances collaboration, ensuring efficient issue monitoring and resolution.",
-    "github": "https://github.com/M-Jawad-Malik/bug_track",
-    "deployed": "https://github.com/M-Jawad-Malik/bug_track",
+    "github": "https://github.com/mjwad/bug_track",
+    "deployed": "https://github.com/mjwad/bug_track",
     "bgcolor": "#f85781",
     "id": "4"
   }

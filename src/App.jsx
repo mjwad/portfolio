@@ -39,7 +39,7 @@ function App() {
   const personalDetails = {
     name: "Muhammad Jawad",
     location: "Lahore, Pakistan",
-    email: "m-jawad-malik@outlook.com",
+    email: "mjwad@outlook.com",
     brand:
       "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
   };
@@ -88,7 +88,7 @@ function App() {
           {/* Define routes */}
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline} />} />
-            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/projects" element={<Portfolio />} />
             <Route path="/resume" element={<Resume brand={personalDetails.brand} />} />
 
             <Route
@@ -102,7 +102,7 @@ function App() {
               }
             />
             <Route path="/page-not-found" element={<PageNotFound />} />
-            <Route path="/portfolio/:projectTitle" element={<ProjectDetails />} />
+            <Route path="/projects/:projectTitle" element={<ProjectDetails />} />
             {/* Fallback route for unknown paths */}
             <Route path="*" element={<Navigate to="/page-not-found" />} />
           </Routes>

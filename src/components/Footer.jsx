@@ -22,7 +22,7 @@ const Footer = () => {
 
   useEffect(() => {
     // Fetch GitHub repository information
-    fetch("https://api.github.com/repos/m-jawad-malik/my-portfolio")
+    fetch("https://api.github.com/repos/mjwad/portfolio")
       .then((res) => res.json())
       .then((json) => {
         const { stargazers_count, forks_count } = json;
@@ -50,7 +50,7 @@ const Footer = () => {
       <SocialIcons />
 
       {/* GitHub repository link */}
-      <a className="footer-link" href="https://github.com/m-jawad-malik/my-portfolio">
+      <a className="footer-link" href="https://github.com/mjwad/portfolio">
         <span>
           <AiOutlineStar /> {gitHubInfo.stars} <BiGitRepoForked />
           {gitHubInfo.forks} - Give this project a star!

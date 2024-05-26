@@ -21,7 +21,7 @@ const SocialIcons = () => {
 
   return (
     <div className="socialIcons" style={styles.socialIcons}>
-      <a className="icon" style={styles.icon} href="https://github.com/m-jawad-malik">
+      <a className="icon" style={styles.icon} href="https://github.com/mjwad">
         {/* GitHub Icon */}
         <motion.i
           initial={{ y: 100, opacity: 0 }}
@@ -32,7 +32,7 @@ const SocialIcons = () => {
           title="Muhammad Jawad' GitHub Profile"
         ></motion.i>
       </a>
-      <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/m-jawad-malik/">
+      <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/mjwad/">
         {/* LinkedIn Icon */}
         <motion.i
           initial={{ y1: 100, opacity: 0 }}
@@ -54,7 +54,7 @@ const SocialIcons = () => {
           title="Muhammad Jawad' Instagram Profile"
         ></motion.i>
       </a>
-      <a className="icon" style={styles.icon} href="https://twitter.com/m-jawad-malik">
+      <a className="icon" style={styles.icon} href="https://twitter.com/mjwad">
         {/* Twitter Icon */}
         <motion.i
           initial={{ y: 100, opacity: 0 }}
