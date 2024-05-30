@@ -70,7 +70,7 @@ const Hero = ({ name }) => {
           />
         </motion.div>
         <p>
-          Full Stack Developer | Specialized in Django, Python, <br/> Ruby on Rails, React JS | 💡 Critical Problem Solver | 🧠 AI Enthusiast <br/> 🌐 Your Partner for Effortless Software Excellence #fullstackdeveloper #django
+          Full Stack Developer | Specialized in React Js, Django, Python, <br/> Node JS, Next JS, Ruby on Rails | 💡 Critical Problem Solver | 🧠 AI Enthusiast <br/> 🌐 Your Partner for Effortless Software Excellence #fullstackdeveloper #django #scrap #ai #ui 
         </p>
       </div>
       {/* Animated landing image */}
