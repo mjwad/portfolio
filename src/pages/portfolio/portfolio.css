@@ -216,3 +216,30 @@
     padding: 0 var(--spacing);
   }
 }
+
+.scroll-indicator {
+  position: absolute;
+  height: 200px;
+  bottom: 200px;
+  right: 200px;
+  font-size: 32px; 
+  color: var(--hl2-color);
+  animation: bounce 1s infinite;
+  transform: rotate(90deg);
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.scroll-indicator.hidden {
+  opacity: 0;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0) rotate(90deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(90deg);
+  }
+}
+
