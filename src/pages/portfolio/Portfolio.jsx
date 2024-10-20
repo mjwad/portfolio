@@ -16,20 +16,16 @@ const Portfolio = () => {
   }, [location]);
 
   const handleScroll = () => {
-    const scrollPosition = window.scrollY + window.innerHeight;
-    const documentHeight = document.documentElement.scrollHeight;
-
-    // Show the icon until the user reaches the bottom of the page
-    if (scrollPosition < documentHeight - 50) { // Adjust the threshold as needed
-      setIsVisible(true);
-    } else {
+    if (window.scrollY > 50) {
       setIsVisible(false);
+    } else {
+      setIsVisible(true);
     }
   };
 
   const handleClick = () => {
     window.scrollTo({
-      top: window.innerHeight, // Adjust this value as needed for scrolling
+      top: window.innerHeight, // Adjust this value as needed
       behavior: 'smooth' // Smooth scrolling
     });
   };
