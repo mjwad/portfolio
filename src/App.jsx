@@ -39,7 +39,7 @@ function App() {
   const personalDetails = {
     name: "Muhammad Jawad",
     location: "Lahore, Pakistan",
-    email: "jawaddmuhammad@gmail.com",
+    email: "dev.mjwad@gmail.com",
     brand:
       "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
   };
